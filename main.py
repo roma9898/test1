@@ -1,8 +1,11 @@
 import random
 
-a = int(input('введите случайное число:'))
-b = int(input('введите второе случайное число:'))
 
-c = random.randint(a,b)
+def w(a,b):
+    c = random.randint(a,b)
+    return с
 
-print(c)
+a = int(input('Введите число'))
+b = int(input('Введите число'))
+res = (a,b)
+print('Ваше число:', res)
